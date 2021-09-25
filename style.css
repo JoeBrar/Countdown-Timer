@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url('bg.jpg');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.title{
+    text-align: center;
+    margin-top: 50px;
+    font-size:30px;
+}
+.countdown-container{
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width:80%;
+    margin:auto;
+    margin-top:40px;
+    //background-color: blue;
+}
+.units{
+    margin:20px;
+    text-align: center;
+    font-size: 20px;
+    padding:10px;
+    background-color: rgb(148, 202, 61);
+    box-sizing: border-box;
+    border-radius: 20px;
+    //border: 1px solid black;
+    //min-width: 200px;
+}
+.days-inner1{
+    background-color: brown;
+    width:100px;
+    margin:auto;
+}
+.top-heading{
+    display: inline-block;
+    color:white;
+    font-size: 30px;
+    padding:7px 15px 10px 15px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: burlywood;
+}
+.top-heading-container{
+    text-align: center;
+}
+.form1{
+    //text-align: center;
+    margin-top: 40px;
+}
+.form1 input{
+    width:100%;
+    padding:8px 13px;
+    font-size: 18px;
+    outline:none;
+    
+}
+.form1 label{
+    width:40%;
+    font-size: 18px;
+    padding:5px 13px;
+    background-color: rgb(255, 51, 51);
+    color:white;
+}
+.form1 input:nth-of-type(1){
+    margin-bottom: 20px;
+}
+.form-container{
+    margin:auto;
+    max-width: 500px;
+}
+.form-container-outer{
+    margin:0px 20px 0px 20px;
+}
+.invalid{
+    text-align: center;
+    background-color: red;
+    color:white;
+    max-width:500px;
+    margin:auto;
+    margin-bottom: -20px;
+    display:none;
+}
+.newbtn-container{
+    text-align: center;
+}
+.newctn-button{
+    display:none;
+    margin-top:100px;
+    padding:7px 13px;
+    border-radius: 10px;
+    outline:none;
+    background-color: rgb(149, 149, 247);
+    color:white;
+}
+.newctn-button:hover{
+    background-color: rgb(247, 133, 26);
+}

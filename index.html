@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/088913736b.js" crossorigin="anonymous"></script>
+    <title>Countdown Timer</title>
+</head>
+<body>
+    <div class="top-heading-container">
+        <div class="top-heading">Countdown Timer</div>
+    </div>
+    <div class="title"></div>
+    <div class="countdown-container">
+        <div class="days units">0<br>days</div>
+        <div class="hours units">0<br>hours</div>
+        <div class="mins units">0<br>mins</div>
+        <div class="seconds units">0<br>seconds</div>
+    </div>
+    <div class="invalid">Invalid Input</div>
+    <div class="form-container-outer">
+        <div class="form-container">
+            <form class="form1">
+                <label for="eventname">Event Name : </label>
+                <input type="text" name="eventname" spellcheck="false">
+                <br>
+                <label for="eventdate">Event Date : </label>
+                <input type="date" name="eventdate" spellcheck="false">
+                <input type="submit" name="submit" value="Start" class="submitbtn">
+            </form>
+        </div>
+    </div>
+    <div class="newbtn-container">
+        <a href="index.html">
+            <button name="newcountdown" class="newctn-button">New Countdown</button>
+        </a>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
